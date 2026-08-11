@@ -1,6 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react';
-import { supabase } from '@/lib/supabaseClient';
+import { supabase } from '/lib/supabaseClient';
 
 export default function AuroraTrades() {
   const [user, setUser] = useState(null); const [session, setSession] = useState(null);
